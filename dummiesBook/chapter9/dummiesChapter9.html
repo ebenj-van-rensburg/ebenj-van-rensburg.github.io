@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 9: Operators</title>
+    <link rel="stylesheet" href="dummiesChapter9.css">
+</head>
+
+<body>
+    <hr>
+    <h1>JS Super-Calculator</h1>
+    <p>The Super-Calculator can produce the result of numbers or letters using a variety of operators.</p>
+    <div class="input-area" id="step1">
+        <hr>
+        <p>Step 1: Enter the first Operand</p>
+        <span><input type="text" id="operand1" value="0"> <select id="operandselect1">
+                <option value="number">number</option>
+                <option value="string">string</option>
+            </select></span>
+    </div><br>
+    <div class="input-area" id="step2">
+        <hr>
+        <p>Step 2: Choose an Operator</p>
+        <hr>
+        <p>Arithmatic Operators:</p>
+        <input type="radio" id="+" name="operator" value="+"><label for="+"> +&emsp;</label>
+        <input type="radio" id="-" name="operator" value="-"><label for="-"> -&emsp;</label>
+        <input type="radio" id="*" name="operator" value="*"><label for="*"> *&emsp;</label>
+        <input type="radio" id="/" name="operator" value="/"><label for="/"> /&emsp;</label>
+        <input type="radio" id="%" name="operator" value="%"><label for="%"> %</label>
+        <p>String Operator:</p>
+        <input type="radio" id="concat" name="operator" value="concat"><label for="concat"> + (concatination)</label>
+        <p>Comparison Operators:</p>
+        <input type="radio" id="==" name="operator" value="=="><label for="=="> ==&emsp;</label>
+        <input type="radio" id="===" name="operator" value="==="><label for="==="> ===&emsp;</label>
+        <input type="radio" id="!=" name="operator" value="!="><label for="!="> !=&emsp;</label>
+        <input type="radio" id="!==" name="operator" value="!=="><label for="!=="> !==&emsp;</label>
+        <input type="radio" id="&gt;" name="operator" value="&gt;"><label for="&gt;"> &gt;&emsp;</label>
+        <input type="radio" id="&gt;=" name="operator" value="&gt;="><label for="&gt;="> &gt;=&emsp;</label>
+        <input type="radio" id="&lt;" name="operator" value="&lt;"><label for="&lt;"> &lt;&emsp;</label>
+        <input type="radio" id="&lt;=" name="operator" value="&lt;="><label for="&lt;="> &lt;=</label>
+    </div><br>
+    <div class="input-area" id="step3">
+        <hr>
+        <p>Step 3: Enter the second Operand</p>
+        <span><input type="text" id="operand2" value="0"> <select id="operandselect2">
+                <option value="number">number</option>
+                <option value="string">string</option>
+            </select></span>
+    </div><br>
+    <hr>
+    <div class="input-area" id="step4">
+        <p>Step 4: Click to start the Operation</p>
+        <div id="operation">
+            <br>
+        </div>
+        <button id="calculate">Calculate Result</button><br>
+    </div><br>
+    <hr>
+    <div class="output-area" id="step5">
+        <p>Step 5: Get Output</p>
+        <div id="result"></div>
+    </div><br>
+    <hr>
+    <script src="dummiesChapter9.js"></script>
+</body>
+
+</html>
