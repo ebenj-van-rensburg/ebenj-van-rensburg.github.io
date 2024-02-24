@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dummiesChapter5.css">
+</head>
+
+<body>
+    <img src="valhalla.png" style="width: 45%;" alt="valhalla.png">
+    <h1 id="myName">Eben Janse van Rensburg</h1>
+    <button id="changeName" type="button" onclick="changeHeaderMyName()">Change Name</button>
+    <hr>
+    <p id="myFavQuote">
+        <em>
+            "If you can't explain it simply, you don't understand it well enough."
+            <br />&emsp;&emsp;<strong>- Albert Einstein</strong>
+        </em>
+    </p>
+    <hr>
+    <h2></h2>
+    <p id="tierDescription">
+        This is a tier list of knives, based upon my personal experience.
+    </p>
+
+    <ul id="tierList">
+        <li id="sTier">
+            S Tier Knives:&ensp;<button id="changeSTier" type="button" onclick="changeTierList('s')">Change S tier list</button><br />
+            <ul>
+                <li id="sTier0">Pukko</li>
+                <li id="sTier1">Seax</li>
+                <li id="sTier2">Kukiri</li>
+            </ul>
+        </li>
+        <li id="aTier">
+            A Tier Knives:&ensp;<button id="changeSTier" type="button" onclick="changeTierList('a')">Change A tier list</button><br />
+            <ul>
+                <li id="aTier0">Tanto</li>
+                <li id="aTier1">Classical Bowie</li>
+                <li id="aTier2">Machette</li>
+            </ul>
+        </li>
+        <li id="bTier">
+            B Tier Knives:&ensp;<button id="changeSTier" type="button" onclick="changeTierList('b')">Change B tier list</button><br />
+            <ul>
+                <li id="bTier0">Push Dagger</li>
+                <li id="bTier1">Stiletto Dagger</li>
+                <li id="bTier2">Modern Bowie</li>
+            </ul>
+        </li>
+    </ul>
+    <script src="dummiesChapter5.js"></script>
+</body>
+
+</html>
