@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    align-items: center;
+    background-color: rgb(25, 25, 25);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Sunday, #Monday, #Tuesday, #Wednesday, #Thursday, #Friday, #Saturday {
+    width: 13.5%;
+    height: 100px;
+    float: left;
+    border: 1px solid black;
+    padding: 2px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.Sunny {
+    background-color: skyblue;
+}
+.Raining {
+    background-color: lightgrey;
+}
+.Cloudy {
+    background-color: #eee; 
+}
+.Thunderstorm {
+    background-color: #333;
+    color: rgb(226, 255, 253);
+}
+.Snowing {
+    background-color: #ffffff; 
+}
+.Foggy {
+    background-color: #505050;
+    color: rgb(226, 255, 253);
+}
